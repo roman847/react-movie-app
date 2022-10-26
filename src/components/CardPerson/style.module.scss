@@ -1,0 +1,20 @@
+.container__card {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 40px;
+  height: 620px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: rgb(224, 221, 250);
+  opacity: 0.9;
+  border-radius: 50px;
+}
+.card__img{
+width: 150px;
+height: 150px;
+margin: 0 auto;
+margin-bottom: 30px;
+}

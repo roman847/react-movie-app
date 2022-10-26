@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.container__main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 50px 0px;
+  box-sizing: border-box;
+  @media screen and (max-width: 500px) {
+    padding: 10px;
+  }
+}
+
+.container__filters {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1920px;
+  padding: 100px 0px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: rgb(224, 221, 250);
+  opacity: 0.9;
+  margin-bottom: 50px;
+}
+.filters__field{
+width: 200px;
+height: 50px;
+font-family:'Montserrat' ;
+font-size: 20px;
+letter-spacing: 2px;
+font-weight: 700;
+text-align: center;
+padding: 0;
+&:focus {
+  outline: none;
+  -webkit-box-shadow: -1px 1px 8px 7px rgba(45, 134, 202, 0.2);
+  -moz-box-shadow: -1px 1px 8px 7px rgba(45, 134, 202, 0.2);
+  box-shadow: -1px 1px 8px 7px rgba(45, 134, 202, 0.2);
+}
+}
+.box__field{
+width: 300px;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.field__title{
+font-family: 'Montserrat';
+font-size: 22px;
+font-weight: 700;
+letter-spacing: 2px;
+}

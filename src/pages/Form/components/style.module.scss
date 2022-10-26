@@ -1,0 +1,138 @@
+
+.container__form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wrapper__form{
+  display: flex;
+  width: 30%;
+  padding-top: 100px;
+  background-color: rgb(224, 221, 250);
+  opacity: 0.9;
+  border-radius: 50px;
+  padding: 30px;
+  margin-top: 20px;
+ box-sizing: border-box;
+}
+.formMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+
+.formInput{
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 10px;
+  box-sizing: border-box;
+  &:focus{
+    outline: 2px solid  rgb(155, 183, 243);
+    -webkit-box-shadow: -1px 1px 24px 0px rgba(2, 18, 30, 0.2);
+    -moz-box-shadow: -1px 1px 24px 0px rgba(2, 18, 30, 0.2);
+    box-shadow: -1px 1px 24px 0px rgba(2, 18, 30, 0.2);
+  }
+}
+
+.form__title{
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.formRadio{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+gap: 20px;
+align-items: center;
+}
+.radio__input {
+width: 30px;
+height: 30px;
+}
+.radio__label{
+  font-size: 22px;
+}
+.container__checkbox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+.checkbox{
+  width: 30px;
+  height: 30px;
+}
+.errorText {
+  font-size: 18px;
+  font-weight: 400;
+  color: red;
+  margin: 0;
+} 
+.input__file{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.label__file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(99, 150, 245);
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: aliceblue;
+  transition: 0.4s;
+  cursor: pointer;
+  &:hover{
+   background-color: rgb(12, 131, 241);
+  }
+}
+.file__icon{
+  width: 50px;
+}
+
+.form__button{
+  margin-top: 30px;
+  background-color: rgb(5, 46, 133);
+  border: none;
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: aliceblue;
+  font-size: 22px;
+  letter-spacing: 2px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.cards__container{
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 100px;
+  flex-wrap: wrap;
+  gap: 20px;
+  box-sizing: border-box;
+  
+}
